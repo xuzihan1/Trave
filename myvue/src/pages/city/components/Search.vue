@@ -32,7 +32,7 @@
         },
         computed: {
             hasNoData() {
-                return this.list.length
+                return !this.list.length
             }
         },
         methods: {
